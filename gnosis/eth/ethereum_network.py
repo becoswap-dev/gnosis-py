@@ -181,6 +181,7 @@ class EthereumNetwork(Enum):
     PALM_TESTNET = 11297108099
     PALM = 11297108109
     default = UNKNOWN
+    KAI = 192049
 
     @classmethod
     def _missing_(cls, value):
